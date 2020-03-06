@@ -2,7 +2,7 @@ let btn = document.querySelectorAll('.btns__item')
 let content = document.querySelectorAll('.content__item')
 
 //функция показа контента по нажатию кнопки
-let showContent = (props) => {
+function showContent(props) {
 
   let btnActive = document.querySelector('.btn-active')
   btnActive.classList.remove('btn-active')
